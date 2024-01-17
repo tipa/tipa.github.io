@@ -1,0 +1,169 @@
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    line-height: 1.15
+}
+
+body {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -.25px;
+    line-height: 1.4;
+    color: #595d6b;
+    overscroll-behavior: none;
+    background-color: #fff;
+    margin: 0;
+    font-family: Graphik, Calibre, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    color: #2e2e2e;
+    letter-spacing: -.5px;
+    line-height: 1.1;
+    margin: 0
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 3rem
+}
+
+h3 {
+    font-size: 2rem
+}
+
+strong {
+    font-weight: bolder
+}
+
+a {
+    color: #065af9;
+    text-decoration: underline;
+    outline: 0;
+    transition: color .2s linear
+}
+
+a:focus,
+a:hover {
+    text-decoration: none
+}
+
+.container {
+    margin: 8vw auto;
+    width: 100%;
+    max-width: 880px;
+    font-size: 1.6rem;
+    line-height: 1.6
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit
+}
+
+@media (min-width:375px) {
+    .container {
+        max-width: 1170px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 880px
+    }
+}
+
+@media (max-width:374px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 860px
+    }
+}
+
+@media (min-width:480px) {
+    .container {
+        font-size: 1.8rem
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:1600px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ol,
+    ul {
+        margin-top: calc(17.5px + .78125vw)
+    }
+
+    .container ul {
+        margin-top: calc(8.75px + .39063vw)
+    }
+
+    .container li {
+        margin-bottom: calc(8.75px + .39063vw)
+    }
+}
+
+@media screen and (min-width:1600px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ol,
+    ul {
+
+        margin-top: 30px
+    }
+
+    .container ul {
+        margin-top: 15px
+    }
+
+    .container li {
+        margin-bottom: 15px
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ol,
+    ul {
+
+        margin-top: 20px
+    }
+
+    .container ul {
+        margin-top: 10px
+    }
+
+    .container li {
+        margin-bottom: 10px
+    }
+}
